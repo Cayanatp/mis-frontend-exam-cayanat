@@ -1,17 +1,36 @@
 {
-  "name": "nuxt-app",
+  "name": "cmu-asset-mgt-frontend",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
+    "start": "node .output/server/index.mjs",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.14.159",
-    "vue": "latest",
-    "vue-router": "latest"
+    "@iconify-json/fa6-brands": "^1.1.19",
+    "@iconify-json/fa6-regular": "^1.1.19",
+    "@iconify-json/fa6-solid": "^1.1.21",
+    "@iconify-json/mdi": "^1.1.66",
+    "@nuxt/image": "^1.5.0",
+    "@nuxt/ui": "^2.18.4",
+    "@pinia/nuxt": "^0.5.1",
+    "maska": "^2.1.11",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@nuxt/eslint": "^0.3.8",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/i18n": "^8.5.3",
+    "dayjs-nuxt": "^2.1.9",
+    "eslint": "^9.0.0",
+    "nuxt-lodash": "^2.5.3"
   }
 }
